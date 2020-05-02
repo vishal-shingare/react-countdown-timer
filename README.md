@@ -20,7 +20,7 @@ import 'react-countdown-timer/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <CountdownTimer tillDate='2020 05 05'/>
   }
 }
 ```
@@ -28,3 +28,5 @@ class Example extends Component {
 ## License
 
 MIT © [vishal-shingare](https://github.com/vishal-shingare)
+
+Made in ❤ for Fun
