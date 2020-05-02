@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-countdown-timer'
+import { CountdownTimer } from 'react-countdown-timer'
 import 'react-countdown-timer/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <CountdownTimer tillDate='2020 05 05'/>
 }
 
 export default App
